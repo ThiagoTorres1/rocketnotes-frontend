@@ -2,6 +2,7 @@ import {Container, Links} from "./styles.js"
 import { Header } from "../../components/Header"
 import { Section } from "../../components/Section"
 import { Button } from "../../components/Button"
+import { Tag } from "../../components/Tags"
 
 export function Details() {
   
@@ -15,7 +16,8 @@ export function Details() {
         </Links>
       </Section>
       <Section title="Marcadores">
-
+        <Tag title="express"/>
+        <Tag title="nodejs"/>
       </Section>
       <Button title="Voltar"/>
     </Container>
